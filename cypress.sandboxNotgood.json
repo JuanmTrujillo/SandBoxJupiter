@@ -1,0 +1,28 @@
+ 
+       {
+        "$schema": "https://on.cypress.io/cypress.schema.json" ,
+        "baseUrl":"https://sandbox-backoffice.jupiterhq.com/",
+        "env":{
+            "credentials":{
+                "admin":{
+                },
+                "merchant":{
+                    "valid":{
+                        "username":"demo-acc@jupiterhq.com",
+                        "password":"demo2019"
+                    },
+                    "invalid":{
+                        "username":"invaliduser",
+                        "password":"invalidpass"
+                    },
+                    "blocked":{
+                        "username":"",
+                        "password":""
+                    }
+                }
+            }
+        }
+    
+    }
+        
+    

@@ -1,0 +1,17 @@
+ 
+       {
+        "$schema": "https://on.cypress.io/cypress.schema.json" ,
+        "baseUrl":"https://sandbox-backoffice.jupiterhq.com/",
+        "defaultCommandTimeout": 15000,
+        
+        "env":
+        {
+            "merchant.valid.user": "demo-acc@jupiterhq.com",
+            "merchant.valid.pass": "demo2019",
+            "merchant.invalid.user": "invaliduser",
+            "merchant.invalid.pass": "invalidpass"
+        },
+        "testFiles": "**/login.spec.js"
+    }
+        
+    
